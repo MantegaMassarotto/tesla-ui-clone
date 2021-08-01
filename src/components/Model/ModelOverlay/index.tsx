@@ -45,7 +45,7 @@ const ModelOverlay: React.FC<Props> = ({ model, children }) => {
   React.useEffect(() => {
     sectionScrollProgress.onChange(value => {
       // if (value === 1) {
-        console.log({ sectionScrollProgress: value });
+        // console.log({ sectionScrollProgress: value });
       // }
     });
   }, [sectionScrollProgress, opacity]);

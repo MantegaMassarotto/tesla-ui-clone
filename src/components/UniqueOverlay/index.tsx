@@ -1,8 +1,11 @@
 import { useTransform } from 'framer-motion';
 import React from 'react';
 import useWrapperScroll from '../Model/useWrapperScroll';
+import Header from '../Header';
+import SideMenu from '../SideMenu';
+import MenuForm from '../MenuForm';
 
-import { Container, Header, Logo, Burger, Footer } from './styles'
+import { Container, Footer } from './styles'
 
 const UniqueOverlay: React.FC = () => {
   const { scrollYProgress } = useWrapperScroll();
@@ -11,20 +14,14 @@ const UniqueOverlay: React.FC = () => {
 
   return (
     <Container>
-      <Header>
-        <Logo />
-        <Burger />
-      </Header>
+      <Header />
+      <SideMenu>
+        <MenuForm />
+      </SideMenu>
       <Footer style={{ opacity }}>
         <ul>
           <li>
-            <a href="#">UI Clone</a>
-          </li>
-          <li>
-            <a href="#">made with s2</a>
-          </li>
-          <li>
-            <a href="#">by Mantega</a>
+            <span>© 2021 - Todos os direitos reservados</span>
           </li>
         </ul>
       </Footer>

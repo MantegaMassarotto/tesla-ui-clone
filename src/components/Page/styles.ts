@@ -2,19 +2,19 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   .colored:nth-child(1) {
-    background: #f1ffe7;
+    background: #F0F0F0;
   }
   .colored:nth-child(2) {
-    background: #dfffd9;
+    background: #fafbfc;
   }
   .colored:nth-child(3) {
-    background: #cdfeca;
+    background: #F0F0F0;
   }
   .colored:nth-child(4) {
-    background: #bbfebb;
+    background: #fafbfc;
   }
   .colored:nth-child(5) {
-    background: #a9fdac;
+    background: #fafbfc;
   }
   .colored:nth-child(6) {
     background: #90f29c;

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { LogoSVG, BurgerSVG } from './IconSVG';
 import { motion } from 'framer-motion';
 
+
 export const Container = styled.div`
   position: sticky;
   top: 0;
