@@ -47,7 +47,6 @@ export const Content = styled.div`
 `;
 
 export const Item = styled.div`
-  width: 150px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -70,6 +69,8 @@ export const Item = styled.div`
   }
 
   @media (min-width: 600px) {
+    width: 150px;
+
     > svg {
       width: 120px;
       height: 120px;

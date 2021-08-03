@@ -52,7 +52,7 @@ export const Content = styled.div`
 `;
 
 export const Description = styled.div`
-  text-align: justify;
+  text-align: center;
   font-size: 12px;
   
   @media (min-width: 600px) {
